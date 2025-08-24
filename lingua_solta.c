@@ -13,6 +13,7 @@
 
 /////
 // Assinatura das funções
+void tela_principal(void);
 void tela_sobre(void);
 
 
@@ -21,6 +22,7 @@ void tela_sobre(void);
 // Programa principal
 
 int main(void) {
+    tela_principal();
     tela_sobre();
     
     return 0;
@@ -40,7 +42,7 @@ void tela_sobre(void) {
     printf("///               Departamento de Computação e Tecnologia                   ///\n");
     printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
     printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
-    printf("///             Developed by  @flgorgonio - Since Out, 2021                 ///\n");
+    printf("///             Developed by @flgorgonio  - since Out, 2021                 ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -59,3 +61,32 @@ void tela_sobre(void) {
 }
 
 
+
+void tela_principal(void) {
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             Universidade Federal do Rio Grande do Norte                 ///\n");
+    printf("///                 Centro de Ensino Superior do Seridó                     ///\n");
+    printf("///               Departamento de Computação e Tecnologia                   ///\n");
+    printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
+    printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
+    printf("///             Developed by @flgorgonio  - since Out, 2021                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = Sistema de Gestão Escolar = = = = =                ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1. Módulo Aluno                                              ///\n");
+    printf("///            2. Módulo Professor                                          ///\n");
+    printf("///            3. Módulo Turma                                              ///\n");
+    printf("///            4. Módulo Matrícula                                          ///\n");
+    printf("///            5. Módulo Relatórios                                         ///\n");
+    printf("///            6. Sobre este Programa                                       ///\n");
+    printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\tTecle <ENTER> para continuar...");
+    getchar();
+}
