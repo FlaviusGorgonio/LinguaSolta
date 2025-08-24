@@ -15,6 +15,7 @@
 // Assinatura das funções
 void tela_principal(void);
 void tela_sobre(void);
+void tela_equipe(void);
 
 
 
@@ -24,6 +25,7 @@ void tela_sobre(void);
 int main(void) {
     tela_principal();
     tela_sobre();
+    tela_equipe();
     
     return 0;
 }
@@ -84,6 +86,36 @@ void tela_principal(void) {
     printf("///            5. Módulo Relatórios                                         ///\n");
     printf("///            6. Sobre este Programa                                       ///\n");
     printf("///            0. Sair                                                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\tTecle <ENTER> para continuar...");
+    getchar();
+}
+
+
+
+void tela_equipe(void) {
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             Universidade Federal do Rio Grande do Norte                 ///\n");
+    printf("///                 Centro de Ensino Superior do Seridó                     ///\n");
+    printf("///               Departamento de Computação e Tecnologia                   ///\n");
+    printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
+    printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
+    printf("///             Developed by @flgorgonio  - since Out, 2021                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = Sistema de Gestão Escolar = = = = =                ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Este projeto exemplo foi desenvolvido por:                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Prof. Flavius Gorgônio                                       ///\n");
+    printf("///            E-mail: flavius.gorgonio@ufrn.br                             ///\n");
+    printf("///            Redes sociais: @flgorgonio                                   ///\n");
+    printf("///            Repositório: https://github.com/FlaviusGorgonio/LinguaSolta  ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
