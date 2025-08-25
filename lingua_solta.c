@@ -20,7 +20,7 @@ void tela_fim(void);
 
 void tela_menu_aluno(void);
 void tela_cadastrar_aluno(void);
-
+void tela_pesquisar_aluno(void);
 
 
 
@@ -35,6 +35,7 @@ int main(void) {
 
     tela_menu_aluno();
     tela_cadastrar_aluno();
+    tela_pesquisar_aluno();
     
     return 0;
 }
@@ -250,6 +251,37 @@ void tela_cadastrar_aluno(void) {
     printf("///             E-mail:                                                     ///\n");
     printf("///             Data de Nascimento (dd/mm/aaaa):                            ///\n");
     printf("///             Celular  (apenas números):                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+
+void tela_pesquisar_aluno(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = Pesquisar Aluno = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             Informe a matrícula (apenas números):                       ///\n");
     printf("///                                                                         ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
