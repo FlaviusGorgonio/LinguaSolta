@@ -4,11 +4,10 @@
 ///               Departamento de Computação e Tecnologia                   ///
 ///                  Disciplina DCT1106 -- Programação                      ///
 ///                  Projeto Sistema de Gestão Escolar                      ///
-///             Developed by  @flgorgonio - Since Out, 2021                 ///
+///             Developed by @flgorgonio  - since Out, 2021                 ///
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-
 
 
 /////
@@ -16,7 +15,7 @@
 void tela_principal(void);
 void tela_sobre(void);
 void tela_equipe(void);
-
+void tela_fim(void);
 
 
 /////
@@ -26,10 +25,10 @@ int main(void) {
     tela_principal();
     tela_sobre();
     tela_equipe();
+    tela_fim();
     
     return 0;
 }
-
 
 
 /////
@@ -115,10 +114,46 @@ void tela_equipe(void) {
     printf("///            Prof. Flavius Gorgônio                                       ///\n");
     printf("///            E-mail: flavius.gorgonio@ufrn.br                             ///\n");
     printf("///            Redes sociais: @flgorgonio                                   ///\n");
-    printf("///            Repositório: https://github.com/FlaviusGorgonio/LinguaSolta  ///\n");
+    printf("///            Github: https://github.com/FlaviusGorgonio/LinguaSolta       ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
     printf("\t\t\tTecle <ENTER> para continuar...");
     getchar();
 }
+
+
+
+void tela_fim(void) {
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             Universidade Federal do Rio Grande do Norte                 ///\n");
+    printf("///                 Centro de Ensino Superior do Seridó                     ///\n");
+    printf("///               Departamento de Computação e Tecnologia                   ///\n");
+    printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
+    printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
+    printf("///             Developed by @flgorgonio  - since Out, 2021                 ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = Sistema de Gestão Escolar = = = = =                ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ################################                      ///\n");
+    printf("///                   ################################                      ///\n");
+    printf("///                   ##      _____ ___ __  __      ##                      ///\n");
+    printf("///                   ##     |  ___|_ _|  \\/  |     ##                      ///\n");
+    printf("///                   ##     | |_   | || |\\/| |     ##                      ///\n");
+    printf("///                   ##     |  _|  | || |  | |     ##                      ///\n");
+    printf("///                   ##     |_|   |___|_|  |_|     ##                      ///\n");
+    printf("///                   ##                            ##                      ///\n");
+    printf("///                   ################################                      ///\n");
+    printf("///                   ################################                      ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\tTecle <ENTER> para continuar...");
+    getchar();
+}
+
+
