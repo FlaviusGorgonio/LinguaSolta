@@ -19,7 +19,7 @@ void tela_fim(void);
 
 
 /////
-// Programa principal
+// Programa principal - Versão 0.1.0-alpha1 
 
 int main(void) {
     tela_principal();
