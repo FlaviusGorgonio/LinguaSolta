@@ -18,6 +18,8 @@ void tela_sobre(void);
 void tela_equipe(void);
 void tela_fim(void);
 
+void tela_menu_aluno(void);
+
 
 
 
@@ -29,6 +31,8 @@ int main(void) {
     tela_sobre();
     tela_equipe();
     tela_fim();
+
+    tela_menu_aluno();
     
     return 0;
 }
@@ -182,5 +186,38 @@ void tela_fim(void) {
 
 
     
-    
+void tela_menu_aluno(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = =  Menu Aluno = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             1. Cadastrar um novo aluno                                  ///\n");
+    printf("///             2. Pesquisar os dados de um aluno                           ///\n");
+    printf("///             3. Atualizar o cadastro de um aluno                         ///\n");
+    printf("///             4. Excluir um aluno do sistema                              ///\n");
+    printf("///             0. Voltar ao menu anterior                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             Escolha a opção desejada:                                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}    
                                                   
