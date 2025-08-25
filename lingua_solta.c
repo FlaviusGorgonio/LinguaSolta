@@ -28,6 +28,7 @@ void tela_menu_professor(void);
 void tela_cadastrar_professor(void);
 void tela_pesquisar_professor(void);
 void tela_alterar_professor(void);
+void tela_excluir_professor(void);
 
 
 
@@ -50,6 +51,7 @@ int main(void) {
     tela_cadastrar_professor();
     tela_pesquisar_professor();
     tela_alterar_professor();
+    tela_excluir_professor();
     
     return 0;
 }
@@ -489,6 +491,37 @@ void tela_alterar_professor(void) {
     printf("///                                                                         ///\n");
     printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
     printf("///             = = = = = = = Alterar Professor = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             Informe o CPF (apenas números):                             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+
+void tela_excluir_professor(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = Excluir Professor = = = = = = = =             ///\n");
     printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
     printf("///                                                                         ///\n");
     printf("///             Informe o CPF (apenas números):                             ///\n");
