@@ -24,6 +24,8 @@ void tela_pesquisar_aluno(void);
 void tela_alterar_aluno(void);
 void tela_excluir_aluno(void);
 
+void tela_menu_professor(void);
+
 
 
 /////
@@ -40,6 +42,8 @@ int main(void) {
     tela_pesquisar_aluno();
     tela_alterar_aluno();
     tela_excluir_aluno();
+
+    tela_menu_professor();
     
     return 0;
 }
@@ -355,3 +359,40 @@ void tela_excluir_aluno(void) {
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 }
+
+
+
+void tela_menu_professor(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = =  Menu Professor = = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             1. Cadastrar um novo professor                              ///\n");
+    printf("///             2. Pesquisar os dados de um professor                       ///\n");
+    printf("///             3. Atualizar o cadastro de um professor                     ///\n");
+    printf("///             4. Excluir um professor do sistema                          ///\n");
+    printf("///             0. Voltar ao menu anterior                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             Escolha a opção desejada:                                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+} 
