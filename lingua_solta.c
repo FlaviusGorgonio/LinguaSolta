@@ -26,6 +26,7 @@ void tela_excluir_aluno(void);
 
 void tela_menu_professor(void);
 void tela_cadastrar_professor(void);
+void tela_pesquisar_professor(void);
 
 
 
@@ -46,6 +47,7 @@ int main(void) {
 
     tela_menu_professor();
     tela_cadastrar_professor();
+    tela_pesquisar_professor();
     
     return 0;
 }
@@ -426,6 +428,37 @@ void tela_cadastrar_professor(void) {
     printf("///             E-mail:                                                     ///\n");
     printf("///             Data de Nascimento (dd/mm/aaaa):                            ///\n");
     printf("///             Celular  (apenas números):                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+
+void tela_pesquisar_professor(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = Pesquisar Professor = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             Informe o CPF (apenas números):                             ///\n");
     printf("///                                                                         ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
