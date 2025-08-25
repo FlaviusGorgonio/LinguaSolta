@@ -25,6 +25,7 @@ void tela_alterar_aluno(void);
 void tela_excluir_aluno(void);
 
 void tela_menu_professor(void);
+void tela_cadastrar_professor(void);
 
 
 
@@ -44,6 +45,7 @@ int main(void) {
     tela_excluir_aluno();
 
     tela_menu_professor();
+    tela_cadastrar_professor();
     
     return 0;
 }
@@ -396,3 +398,38 @@ void tela_menu_professor(void) {
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
     getchar();
 } 
+
+
+
+void tela_cadastrar_professor(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///                   ╔╗                  ╔═══╗  ╔╗╔╗                       ///\n");
+    printf("///                   ║║                  ║╔═╗║  ║╠╝╚╗                      ///\n");
+    printf("///                   ║║  ╔╦═╗╔══╦╗╔╦══╗  ║╚══╦══╣╠╗╔╬══╗                   ///\n");
+    printf("///                   ║║ ╔╬╣╔╗╣╔╗║║║║╔╗║  ╚══╗║╔╗║║║║║╔╗║                   ///\n");
+    printf("///                   ║╚═╝║║║║║╚╝║╚╝║╔╗║  ║╚═╝║╚╝║╚╣╚╣╔╗║                   ///\n");
+    printf("///                   ╚═══╩╩╝╚╩═╗╠══╩╝╚╝  ╚═══╩══╩═╩═╩╝╚╝                   ///\n");
+    printf("///                           ╔═╝║                                          ///\n");
+    printf("///                           ╚══╝                                          ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///             = = = = = = = Cadastrar Professor = = = = = = =             ///\n");
+    printf("///             = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+    printf("///                                                                         ///\n");
+    printf("///             CPF (apenas números):                                       ///\n");
+    printf("///             Nome completo:                                              ///\n");
+    printf("///             E-mail:                                                     ///\n");
+    printf("///             Data de Nascimento (dd/mm/aaaa):                            ///\n");
+    printf("///             Celular  (apenas números):                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
