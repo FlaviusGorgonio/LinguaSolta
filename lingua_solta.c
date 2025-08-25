@@ -8,6 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
+#include <stdlib.h>
 
 
 /////
@@ -16,6 +17,8 @@ void tela_principal(void);
 void tela_sobre(void);
 void tela_equipe(void);
 void tela_fim(void);
+
+
 
 
 /////
@@ -35,6 +38,7 @@ int main(void) {
 // Funções
 
 void tela_sobre(void) {
+    system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -73,6 +77,7 @@ void tela_sobre(void) {
 
 
 void tela_principal(void) {
+    system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -104,6 +109,7 @@ void tela_principal(void) {
 
 
 void tela_equipe(void) {
+    system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -143,6 +149,7 @@ void tela_equipe(void) {
 
 
 void tela_fim(void) {
+    system("clear||cls");
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
