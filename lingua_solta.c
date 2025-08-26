@@ -33,7 +33,7 @@ void tela_excluir_professor(void);
 
 
 /////
-// Programa principal - Versão 0.1.0-alpha1 
+// Programa principal - Versão 0.1.0-alpha2
 
 int main(void) {
     tela_principal();
